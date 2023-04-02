@@ -8,6 +8,8 @@ The password requirements are:
 4) Password needs to be at least 1 lower case letter
 5) Password needs to be at least 1 number
 
+![image](https://user-images.githubusercontent.com/101923627/229344508-f3c67352-1228-4020-b294-850564939144.png)
+
 # Technologies
 - JavaScript
 - HTML
