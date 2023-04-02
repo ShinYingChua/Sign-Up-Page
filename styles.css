@@ -1,6 +1,6 @@
 body {
     font-family: 'Merriweather', serif;
-    background: url(./assets/bg.jpeg) no-repeat;
+    background: url('./assets/bg.jpeg') no-repeat;
     background-size: cover;
     height: 100vh;
     overflow: hidden;
