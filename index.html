@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel=" stylesheet" href="styles.css">
+    <link href="./normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/6faef4fc76.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="form">
+        <div class="form-info">
+            <h1>
+                Create a account
+            </h1>
+            <div>
+                <form action="" autocomplete="off">
+                    <div class="inputs">
+                        <div class="full-name">
+                            <label for="full-name"><i class='fa fa-address-card fa-fw'></i></label>
+                            <input required type="text" class="form-input" id="full-name" placeholder="Full name" />
+                        </div>
+                        <div class="email">
+                            <label for="email"><i class='fa fa-envelope fa-fw'></i></label>
+                            <input required type="text" class="form-input" id="email" placeholder="Email address" />
+                        </div>
+                        <div class="birth-year">
+                            <label for="birth-year"><i class='fa fa-birthday-cake fa-fw'></i></label>
+                            <input required type="number" class="form-input" id="birth-year" placeholder="Birth year" />
+                        </div>
+                        <div class="create-password">
+                            <label for="create-password"><i class='fas fa-user-lock fa-fw'></i></label>
+                            <input required type="text" class="form-input" id="create-password"
+                                placeholder="Create password" />
+                        </div>
+                        <div class="confirm-password">
+                            <label for="confirm-password"><i class='fa fa-lock fa-fw'></i></label>
+                            <input required type="text" class="form-input" id="confirm-password"
+                                placeholder="Confirm password" />
+                        </div>
+                    </div>
+                    <div class="form-end">
+                        <p>By clicking ‘Continue’, you agree to the <a href="" class="login">Terms</a> and acknowledge
+                            the <a href="" class="login">Privacy Policy</a></p>
+                        <button class="btn" type="submit">Continue</button>
+                        <h1>Already have an account? <a href="" class="login">Sign in</a></h1>
+                        <div class="errorMessage"></div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
